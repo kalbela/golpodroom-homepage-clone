@@ -386,6 +386,9 @@ p {font-size: 1.6rem;}
 }
 
 @media (max-width: 800px) {
+    .header, .about {
+        background-attachment: scroll;
+    }
     .img-box {
         height: 200px;
     }
